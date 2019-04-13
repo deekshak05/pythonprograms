@@ -1,0 +1,8 @@
+
+p=int(input("enter value of p"))
+q=int(input("enter value of q"))
+r=int(input("enter value of r"))
+print(p>q>r)
+print(p<q<r)
+print(p<q and q<r)
+print(p<q or q<r)
