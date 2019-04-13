@@ -1,0 +1,4 @@
+tup = ('a','b','d','e','c')
+tup=list(tup)
+tup.sort()
+print (tup)
