@@ -1,0 +1,3 @@
+g = lambda x:x+x
+n=int(input("enter number"))
+print(g(n))
