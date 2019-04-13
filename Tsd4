@@ -1,0 +1,3 @@
+dict={1:'tom',2:'jerry',3:'bob'}
+print('Dictionary as a key Roll no.')
+print(dict)
