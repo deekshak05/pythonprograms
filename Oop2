@@ -1,0 +1,17 @@
+class Area:
+    def __init__(self,x=1,y=1):
+        self.a=x
+        self.b=y
+    
+
+    def findArea(self,ob):
+        self.a=ob.a
+        self.b=ob.b
+        print("area =",self.a*self.b)
+
+
+
+ob=Area(2,3)
+ob2=Area()
+
+ob2.findArea(ob)
