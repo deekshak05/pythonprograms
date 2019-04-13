@@ -1,0 +1,16 @@
+test_str = "seesawhyebye"
+
+res = {} 
+
+  
+
+for keys in test_str: 
+
+    res[keys] = res.get(keys, 0) + 1
+
+  
+ 
+
+print ("Count of all characters is : \n"
+
+                                             +  str(res))
