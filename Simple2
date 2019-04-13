@@ -1,0 +1,9 @@
+Eng=float(input("enter english marks:"))
+phy=float(input("enter physics marks:"))
+math=float(input("enter mathematics marks:"))
+chem=float(input("enter chemistry marks"))
+bio=float(input("enter biology marks:"))
+total=Eng+phy+math+chem+bio
+percent=total/5
+print("Total marks :",total)
+print("Percentage :",percent)
