@@ -1,0 +1,4 @@
+import calendar
+year, month = input("Enter the year and month number : ").split()
+print(" (weekday number of first day of month (0 = \"Monday\"), total number of days in month)\n", calendar.monthrange(int(year), int(month)))
+input()
