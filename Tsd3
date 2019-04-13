@@ -1,0 +1,10 @@
+set1={1,3,4,5,7,8,9}
+set2={2,4,6,8,10}
+uset=set1.union(set2)
+iset= set1.intersection(set2)
+mset=set1.difference(set2)
+sdset=set1.symmetric_difference(set2)
+print("Union function result : ",uset)
+print("Intersection function result : ",iset)
+print("difference function result : ",mset)
+print("symmetric_difference function result",sdset)
