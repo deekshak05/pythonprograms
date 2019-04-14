@@ -1,0 +1,19 @@
+def check(p, q):
+    for e in p:
+     for t in q:
+        if e == t:
+            print("True")
+            exit()
+n1 = int(input("Enter size of list :"))
+a = []
+b = []
+
+for i in range(n1):
+    m = int(input())
+    a.append(m)
+print("Enter list 2:")
+n = int(input("Enter size of list : "))
+for i in range(n):
+    m = int(input())
+    b.append(m)
+check(a,b)
