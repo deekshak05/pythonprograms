@@ -1,0 +1,22 @@
+n = int(input())
+a = []
+b = []
+for i in range(n):
+    m = int(input())
+    a.append(m)
+a.extend("11")
+print(a)
+a.insert(0, 532)
+print(a)
+a.pop(n+2)
+a.pop(n+1)
+print(a)
+a.remove(2)
+print(a)
+print(a.index(532))
+a.copy()
+print(a)
+a.sort()
+print(a)
+print(a.count(1))
+a.clear()
