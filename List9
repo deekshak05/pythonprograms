@@ -1,0 +1,8 @@
+n = int(input("Enter the size of list : "))
+a = []
+print("Enter the elements of list with newline : ")
+for i in range(n):
+    m = int(input())
+    if m%2 != 0:
+        a.append(m)
+print("output : ", a)
