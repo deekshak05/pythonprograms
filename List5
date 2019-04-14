@@ -1,0 +1,10 @@
+n = int(input("Enter the size of list : "))
+a = []
+p = 0
+for i in range(n):
+    m = input()
+    a.append(m)
+    if(a[i][0] == a[i][len(a[i])-1]):
+        p = p+1
+
+print("output : ", p)
