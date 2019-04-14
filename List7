@@ -1,0 +1,15 @@
+a = [2, 3]
+b = []
+c = input("enter a or b :")
+if c == "a":
+    if len(a) == 0:
+        print("list is empty")
+    else:
+        print("list is not Empty")
+elif c == "b":
+    if len(b) == 0 :
+        print("list is empty")
+    else:
+        print("list is not Empty")
+else:
+print("wrong input")
