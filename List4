@@ -1,0 +1,3 @@
+a = []
+a.extend("Acropolis Institute of Technology and Research")
+print(a)
