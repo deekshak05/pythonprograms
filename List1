@@ -1,0 +1,10 @@
+n = int(input("Enter the size of array : "))
+a = []
+b = []
+for i in range(n):
+    m = int(input())
+    a.append(m)
+for h in range(0, n):
+    f = a[h] + a[n - h - 1]
+    b.append(f)
+print("output : ", b)
